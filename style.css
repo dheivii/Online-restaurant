@@ -1,0 +1,111 @@
+
+.menu-bar{
+    min-height: 8%;
+    background: orange;
+}
+.menu-bar img
+{
+    width: 150px;
+    margin: left;
+}
+.nav-link
+{
+    color: #fff;
+}
+.active
+{
+    color: #000;
+}
+navbar-toggler .fa
+{
+    color: #fff;
+}
+navbar-toggler
+{
+    outline: none;
+}
+.banner
+{
+    min-width: 77%;
+    color: #555;
+    
+}
+.banner img
+{
+    width: 100%;
+    float: left;
+    display: flex;
+    
+}
+.info
+{
+    margin: 24% auto;
+}
+.info h1
+{
+    font-size: 20px;
+}
+.hello a
+{
+    width: 135%;
+    color: #fff;
+    text-decoration: #a46406 !important;
+    padding: 15px 25px;
+    margin: 5% 10px;
+    background: #FF9800;
+    display: inline-block;
+}
+.hello
+{
+    border: 1px solid #ff9800;
+    background:#FF9800;
+    color: #555;
+    transition: 0.5s;
+
+}
+
+.info .hello:hover
+{
+    background:  #ff9800 ;
+    color: #fff;
+
+}
+
+.footer-widget
+{
+    min-height: 15%;
+    background-image: linear-gradient(to right, #ff9800, #a46406);
+    padding: 21px 0;
+    display: inline-flex;
+    color: #fff;
+}
+.footer-text
+{
+    padding-left: 25px;
+
+}
+.footer-text .fa
+{
+    font-size: 25px;
+}
+.row
+{
+    margin: 0;
+}
+.social-icons
+{
+    margin: 1 20px;
+}
+.social-icons
+{
+    padding: 10px;
+}
+@media  screen and (max-width:960px){
+    .footer-widget{
+        background-image: linear-gradient(#ff9800, #a46406);
+    
+    }
+    
+}
+
+

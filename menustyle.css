@@ -1,0 +1,27 @@
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr ;
+    background-color: rgb(116, 14, 14);
+    -webkit-text-fill-color: white;
+    font-size: 20px;
+}
+
+.orders p{
+    text-align: start;
+}
+
+img {
+    width: 350px;
+    height:300px;
+}
+
+.wrapp{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly; 
+    margin:50px 0;
+
+
+}
+

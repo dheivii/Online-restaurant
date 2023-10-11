@@ -1,0 +1,29 @@
+.images-wrapp{
+    height: 100%;
+    width: 100%;
+}
+
+
+.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    width: 90%;
+    
+}
+.images img{
+    width: 80%;
+    height: 400px;
+    margin:50px 0;
+    border-radius: 10px;
+    
+
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
